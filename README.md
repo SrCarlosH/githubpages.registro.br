@@ -57,8 +57,8 @@ O Github agora disponibiliza autalmente quatro endereços para seus servidores D
 4. Clique em **Adicionar** para abrir um novo cadastro.
 
 Repita a operação cadastrando o segundo ip **185.199.109.153**.
-Repita a operação cadastrando o segundo ip **185.199.110.153**.
-Repita a operação cadastrando o segundo ip **185.199.111.153**.
+Repita a operação cadastrando o terceiro ip **185.199.110.153**.
+Repita a operação cadastrando o quarto ip **185.199.111.153**.
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
