@@ -41,22 +41,24 @@ Ok. Pela parte do GitHub já está tudo pronto. Agora falta apenas as configura�
 
 # No registro.br #
 
-Faça o login no site do [registro.br](http://www.registro.br) e clique no domínio registrado para seu projeto.
+Faça o login no site do [registro.br](http://www.registro.br) e clique em "Meus Dominios" e selecione o desejado para seu projeto.
 
 1. Marque a opção **Utilizar os servidores do Registro.br**
 2. Clique em **Salvar & Editar DNS**
 3. Clique em **Modo Avançado**
-4. Agora clique em **+Record** para *setar* o DNS do seu projeto no github.
+4. Agora clique em **Nova Entrada** para *setar* o DNS do seu projeto no github.
 
 #### Edição de Zona ####
 
-O Github agora disponibiliza dois endereços para seus servidores DNS. É preciso cadastrar os dois para o mesmo domínio.
+O Github agora disponibiliza autalmente quatro endereços para seus servidores DNS. É preciso cadastrar os dois para o mesmo domínio.
 1. Deixe o campo de **subdomínios** vazio.  
 2. No campo **Tipo** selecione **A**.  
-3. No campo **Dados** coloque o seguinte endereço: **192.30.252.153**  
-4. Clique em **+Record** para abrir um novo cadastro.
+3. No campo **Dados** coloque o seguinte endereço: **185.199.108.153**  
+4. Clique em **Adicionar** para abrir um novo cadastro.
 
-Repita a operação cadastrando o segundo ip **192.30.252.154**.
+Repita a operação cadastrando o segundo ip **185.199.109.153**.
+Repita a operação cadastrando o segundo ip **185.199.110.153**.
+Repita a operação cadastrando o segundo ip **185.199.111.153**.
 
 Agora precisamos colocar o subdomínio `www` para funcionar também.
 
@@ -68,6 +70,8 @@ Agora precisamos colocar o subdomínio `www` para funcionar também.
 **Pronto!**
 
 ## Observações ##
+
+**As vezes os ips são alterados para ter certeza que esta digitando os ips certos visite: https://help.github.com/articles/setting-up-an-apex-domain/**
 
 **O tempo para que as alterações de DNS sejam visíveis para toda a internet é de até 24 horas, segundo o próprio registro.br**
 
